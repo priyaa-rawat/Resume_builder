@@ -56,6 +56,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+CSRF_TRUSTED_ORIGINS = ["https://resume-builder.azurewebsites.net"]
+
 ROOT_URLCONF = 'myapp.urls'
 
 TEMPLATES = [
